@@ -18,8 +18,6 @@ const port = 5000;
 
 app.use(cors());
 app.use('/images', express.static('public/images'));
-app.use('/video', express.static('public/video'));
-
 
 app.use('/api/motifs', motifsRouter);
 app.use('/', beritaRoutes);
