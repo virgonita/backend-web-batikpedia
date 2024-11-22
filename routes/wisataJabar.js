@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const wisataJabar = require('../data/wisataJabar');
 
-router.get('/api/wisataJabar', (req, res) => {
+router.get('/wisataJabar', (req, res) => {
   res.json(wisataJabar);
 });
 

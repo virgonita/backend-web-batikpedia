@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const batikModern = require('../data/batikModern');
 
-router.get('/api/batikModern', (req, res) => {
+router.get('/batikModern', (req, res) => {
   res.json(batikModern);
 });
 

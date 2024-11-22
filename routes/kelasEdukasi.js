@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const classes = require('../data/kelasEdukasi');
 
-router.get('/api/kelasEdukasi', (req, res) => {
+router.get('/kelasEdukasi', (req, res) => {
   res.json(classes);
 });
 
